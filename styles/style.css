@@ -145,3 +145,14 @@ article + article {
   padding-left: 20px;
   border-left: 1px solid #d1d1d1;
 }
+
+.content {
+  padding-top: 10px;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  border-top: 1px solid #d1d1d1;
+}
