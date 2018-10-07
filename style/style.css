@@ -65,3 +65,61 @@ li {
   color: #72ab00;
   border-top: 2px solid #72ab00;
 }
+
+.main-box {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 1024px;
+  min-height: 450px;
+  margin: 50px auto;
+  padding: 40px;
+  border: 1px solid #cdcdcd;
+  border-radius: 5px;
+  background: #f8f8f8;
+}
+
+img {
+  display: block;
+}
+
+img.photo {
+  width: 350px;
+  height: 389px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #609100;
+}
+
+h4 {
+  padding-bottom: 5px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #609100;
+}
+
+.about-my-header {
+  font-size: 1.8rem;
+}
+
+.about-my-text {
+  margin-top: 15px;
+}
+
+.infobox {
+  width: 380px;
+}
+
+.infobox p + p {
+  padding-top: 10px;
+}
+
+.info-short {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 140px;
+}
