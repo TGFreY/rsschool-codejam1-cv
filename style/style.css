@@ -13,19 +13,19 @@ header {
   width: auto;
   height: 180px;
   margin: 0 auto;
-  background: url(../img/header.jpg) no-repeat;
   color: #72ab00;
   border-bottom: 3px solid #72ab00;
+  background: url(../img/header.jpg) no-repeat;
 }
 
 .wrapper-header {
-  width: 1024px;
-  margin: 0 auto;
-  padding-top: 100px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   align-items: flex-end;
+  width: 1024px;
+  margin: 0 auto;
+  padding-top: 100px;
 }
 
 h1 {
@@ -43,8 +43,8 @@ ul {
 }
 
 li {
-  list-style: none;
   padding: 0 5px;
+  list-style: none;
 }
 
 .color-gray {
@@ -61,7 +61,7 @@ li {
 
 .tab.chosen,
 .tab:hover {
-  color: #72ab00;
   padding: 5px 15px 0;
+  color: #72ab00;
   border-top: 2px solid #72ab00;
 }
